@@ -9,7 +9,19 @@ public class Veiculo{
         this.marca = marca;
         this.modelo = modelo;
     }
-    
+     public String getMarca(){
+        return marca;
+        
+    }
+    public String setMarca(){
+        return marca;
+    }
+    public String getModelo(){
+        return modelo;
+    }
+    public String setModelo(){
+        return modelo;
+    }
     public static void main(String[] args) {
         Veiculo veiculo = new Veiculo("Ford", "Fiesta");
         veiculo.acelerar();
