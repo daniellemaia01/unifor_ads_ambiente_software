@@ -3,9 +3,8 @@ package br.unifor.ads.software.atividade_final;
 MotorMarcia
 
 public class MotorMarcia {
-        private String tipo;
+    private String tipo;
     private int potencia;
-
 
     public MotorMarcia(String tipo, int potencia) {
         this.tipo = tipo;
@@ -27,10 +26,12 @@ public class MotorMarcia {
     public void setPotencia(int potencia) {
         this.potencia = potencia;
     }
+
 }
-//CarolineMetodo
+
+    // CarolineMetodo
 public static void main (String[]args){
-  MotorMarcia motor = mew MotorMarcia("Gasolina",75);
+  MotorMarcia motor = new MotorMarcia("Gasolina",75);
         System.out.printIn("Tipo de motor:" + motor.getTipo())
         System.out.printIn("Potência do Motor:" + motor.getPotencia() + "Cavalos")
                 
