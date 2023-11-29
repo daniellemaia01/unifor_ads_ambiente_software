@@ -26,3 +26,11 @@ public class MotorMarcia {
         this.potencia = potencia;
     }
 }
+//CarolineMetodo
+public static void main (String[]args){
+  MotorMarcia motor = mew MotorMarcia("Gasolina",75);
+        System.out.printIn("Tipo de motor:" + motor.getTipo())
+        System.out.printIn("Potência do Motor:" + motor.getPotencia() + "Cavalos")
+                
+}
+}
