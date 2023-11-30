@@ -1,7 +1,7 @@
 //classe Caroline Benicio
 package br.unifor.ads.software.atividade_final;
 
-public class Veiculo{
+public class Veiculo {
     private String marca;
     private String modelo;
 
@@ -9,7 +9,24 @@ public class Veiculo{
         this.marca = marca;
         this.modelo = modelo;
     }
-    
+
+    public String getMarca() {
+        return marca;
+
+    }
+
+    public String setMarca() {
+        return marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public String setModelo() {
+        return modelo;
+    }
+
     public static void main(String[] args) {
         Veiculo veiculo = new Veiculo("Ford", "Fiesta");
         veiculo.acelerar();
@@ -23,4 +40,5 @@ public class Veiculo{
     public void frear() {
         System.out.println("O Veículo está freando.");
     }
+
 }

@@ -8,8 +8,7 @@ public class MotorMarcia {
     private String tipo;
     private int potencia;
 
-
-    public MotorMarcia (String tipo, int potencia) {
+    public MotorMarcia(String tipo, int potencia) {
         this.tipo = tipo;
         this.potencia = potencia;
     }
@@ -37,4 +36,12 @@ public class MotorMarcia {
     	System.out.println(this.getPotencia());
     	
     }
+    
+    // CarolineMetodo
+	public static void main (String[]args){
+		MotorMarcia motor = new MotorMarcia("Gasolina",75);
+        System.out.println("Tipo de motor:" + motor.getTipo());
+        System.out.println("Potência do Motor:" + motor.getPotencia() + "Cavalos");
+                
+	}
 }
