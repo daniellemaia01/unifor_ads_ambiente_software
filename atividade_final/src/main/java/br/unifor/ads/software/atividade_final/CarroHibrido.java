@@ -65,5 +65,17 @@ public class CarroHibrido {
 
         // Exibir informações do carro
         meuCarro.exibirInformacoes();
+
+        // Chamando métodos da Classe CarroDaniele
+
+        CarroDanielle c1 = new CarroDanielle("Civic", "Honda", "Preta", "True")
+        System.out.println(c1.getNome());
+        System.out.println(c1.getMarca());
+        System.out.println(c1.getCor());
     }
+
+    // Chamando método criado por Ian na classe Veiculo
+
+    c1.static.Veiculo();
+
 }

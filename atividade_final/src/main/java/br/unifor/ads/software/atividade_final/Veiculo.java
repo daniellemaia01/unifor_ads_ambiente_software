@@ -41,4 +41,10 @@ public class Veiculo {
         System.out.println("O Veículo está freando.");
     }
 
+    // Método criado por Ian
+public void statusVeiculo( ) {
+	System.out.println(this.getMarca());
+    System.out.println(this.getModelo());
+
+
 }
