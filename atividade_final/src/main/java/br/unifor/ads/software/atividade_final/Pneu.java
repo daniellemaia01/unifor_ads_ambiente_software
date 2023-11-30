@@ -4,17 +4,37 @@ package br.unifor.ads.software.atividade_final;
 
 public class Pneu {
 
-    private String marca;
-    private int aro;
+    private String Marca;
 
+    private int tamanho;
 
-    public Pneu(String marca, int aro) {
-        this.marca = marca;
-        this.aro = aro;
+    public Pneu(String Marca, int tamanho){
+        this.Marca = Marca;
+        this.tamanho = tamanho;
+
+    }
+
+    public void exibirpneuinfo(){
+        System.out.println("Marca: " + this.marca);
+        System.out.println("Tamanho: " + this.tamanho);
+    }
+
+    public String getMarca() {
+        return Marca;
+    }
+
+    public int getTamanho() {
+        return tamanho;
+    }
+
+    public void setMarca(String marca) {
+        Marca = marca;
+    }
+
+    public void setTamanho(int tamanho) {
+        this.tamanho = tamanho;
     }
 
 
-
-    
 }
 
