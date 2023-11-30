@@ -37,4 +37,9 @@ public class Pneu {
 
 
 }
+public static void main(String[] args) {
+    Pneu meuPneu = new Pneu("Pirelli", 16);
+        meuPneu.exibirpneuinfo();
+}
+
 
