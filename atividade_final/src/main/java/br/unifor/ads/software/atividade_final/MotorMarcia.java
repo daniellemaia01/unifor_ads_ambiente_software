@@ -1,11 +1,15 @@
-MotorMarcia
+
+package br.unifor.ads.software.atividade_final;
+
+//MotorMarcia
+
 
 public class MotorMarcia {
-        private String tipo;
+    private String tipo;
     private int potencia;
 
 
-    public Motor(String tipo, int potencia) {
+    public MotorMarcia (String tipo, int potencia) {
         this.tipo = tipo;
         this.potencia = potencia;
     }
@@ -24,5 +28,13 @@ public class MotorMarcia {
 
     public void setPotencia(int potencia) {
         this.potencia = potencia;
+    }
+    
+    //Método Criado por Danielle
+    
+    public void statusMotor( ) {
+    	System.out.println(this.getTipo());
+    	System.out.println(this.getPotencia());
+    	
     }
 }
